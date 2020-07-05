@@ -69,6 +69,8 @@ func getMacroName(line string) string {
 	return macroName
 }
 
+// Performance improvement: Maybe using a binary search
+// can improve performance for large files
 func isMacroPresent(file, macroName string) bool {
 
 	nlgFile, err := os.Open(file)
