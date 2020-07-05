@@ -1,0 +1,593 @@
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template1 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template7 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
+
+macrodef template3 {
+    command1 {
+        subcommand1 {
+
+        }
+        subcomand2 {
+
+        }
+    }
+}
