@@ -8,7 +8,7 @@ import (
 )
 
 const NewLineCharacter = '\n'
-const SearchTerm = "macrodef"
+const SearchTerm = "template-macro-def"
 
 func Extract(base, file, out string) {
 
@@ -70,7 +70,14 @@ func Extract(base, file, out string) {
 
 func getMacroName(line string) string {
 	fields := strings.Fields(line)
-	macroName := strings.ReplaceAll(fields[1], "{", "")
+	var macroName string
+	if len(fields) < 2 {
+		ib := strings.Index(fields[0], "(")
+		ie := strings.Index(fields[0], ")")
+		macroName = fields[0][ib:ie+1]
+	} else {
+		macroName = strings.ReplaceAll(fields[1], "{", "")
+	}
 	return macroName
 }
 
