@@ -65,7 +65,7 @@ macrodef template8 {
 
         }
         subcomand2 {
-
+            { bla bla }
         }
     }
 }

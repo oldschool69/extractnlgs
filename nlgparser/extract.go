@@ -16,8 +16,14 @@ func Extract(base, file, out string) {
 	check(err)
 	outFile, err := os.Create(out)
 	check(err)
+	nlgFile, err := os.Open(file)
+	check(err)
 	r := bufio.NewReader(baseFile)
+	r2 := bufio.NewReader(nlgFile)
 	w := bufio.NewWriter(outFile)
+	m := fillMacrosAvailable(r2)
+	defer nlgFile.Close()
+
 	for {
 		line, e := r.ReadString(NewLineCharacter)
 		if e != nil {
@@ -25,7 +31,8 @@ func Extract(base, file, out string) {
 		}
 		if strings.Contains(line, SearchTerm) {
 			macroName := getMacroName(line)
-			if !isMacroPresent(file, macroName) {
+			_, ok := m[macroName]
+			if !ok {
 				//fmt.Println("macro not present: ", macroName)
 				chunk := line
 				stk := stack.New()
@@ -57,10 +64,8 @@ func Extract(base, file, out string) {
 			}
 		}
 	}
-
 	defer baseFile.Close()
 	defer outFile.Close()
-
 }
 
 func getMacroName(line string) string {
@@ -69,25 +74,19 @@ func getMacroName(line string) string {
 	return macroName
 }
 
-// Performance improvement: Maybe using a binary search
-// can improve performance for large files
-func isMacroPresent(file, macroName string) bool {
-
-	nlgFile, err := os.Open(file)
-	check(err)
-	r := bufio.NewReader(nlgFile)
+func fillMacrosAvailable(r *bufio.Reader) map[string]string {
+	m := make(map[string]string)
 	for {
 		line, e := r.ReadString(NewLineCharacter)
 		if e != nil {
 			break
 		}
-		if strings.Contains(line, macroName) {
-			nlgFile.Close()
-			return true
+		if strings.Contains(line, SearchTerm) {
+			macroName := getMacroName(line)
+			m[macroName] = macroName
 		}
 	}
-	nlgFile.Close()
-	return false
+	return m
 }
 
 func check(e error) {
